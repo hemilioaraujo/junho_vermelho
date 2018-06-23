@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #fff;
+    font-family: 'Trebuchet MS', Helvetica,sans-serif;
+    font-size: 18px;
+}
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 50px;
+    text-shadow: 0 0 8px black;
+    color: #fff;
+    background: #de1f26;
+}
+
+h4{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10px 0;
+    text-shadow: 0 0 8px black;
+    color: #fff;
+}
+
+.header{
+    width: 100%;
+    top: 0;
+    margin: 0;
+}
+
+
+.navegacao{
+    background: #fff;
+    width: 100%;
+    top: 0;
+}
+
+.areaPrincipal{
+    width: auto;
+    display: table;
+}
+
+.imgLeft{
+    float: left;
+    width: 40%;
+    margin: 0 0 0 3%;
+    font-style: italic;
+    
+    /*border: 1px solid green;*/
+    text-align: center;
+}
+
+.imgLeft img{
+    width: 100%;
+    border: 3px inset lightgray;
+}
+
+.imgLeft a{
+    text-decoration: none;
+    color: #de1f26;
+}
+
+.textoRight{
+    float: right;
+    width: 48%;
+    margin: 0 3% 0 0;
+    /*border: 1px solid green;*/
+}
+
+.textoRight p{
+    margin: 0 0 10px 0;  
+    text-align: justify;
+    text-indent: 5%; 
+}
+
+.textoRight ul{
+    list-style : inside url(img/icone.png);
+}
+
+.textoRight li{
+    margin: 0 0 20px 0;
+}
+
+.home{
+    position:fixed;
+    z-index:999; 
+    right:5px; 
+    bottom:30px;
+    overflow:hidden;
+    padding:6px;
+  }
+
+
+/*cursor em cima do link*/
+a:hover{
+    color: white;
+    background: #de1f26;
+}
+
+/*momento do click*/
+a:active{
+    color: #535353;
+    background: #535353;
+}
+
+
+
+
+
+
+
+
+/*todos links da parte de navegação*/
+.navegacao a{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+/*links não visitados*/
+.navegacao a:link{
+    color: #838383;
+}
+
+/*links visitados*/
+.navegacao a:visited{
+    color: #838383;
+}
+
+/*cursor em cima do link*/
+.navegacao a:hover{
+    color: white;
+    background: #de1f26;
+}
+
+/*momento do click*/
+.navegacao a:active{
+    color: #535353;
+}
+
+.clear{
+    clear: both;
+}
